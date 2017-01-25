@@ -1,0 +1,9 @@
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 25 Jan 2017 14:47:59 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d3e18f0cdcbb091a1d0361e7380e147ed1485355679; expires=Thu, 25-Jan-18 14:47:59 GMT; path=/; domain=.learnenough.com; HttpOnly
+Location: https://s3-us-west-2.amazonaws.com/learnenough/kitten.jpgexit
+Server: cloudflare-nginx
+CF-RAY: 326c860794370b62-NRT
+
