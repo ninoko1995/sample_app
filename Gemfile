@@ -38,12 +38,13 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'sqlite3'
 
-  gem 'hirb'
-  gem 'pry-rails'  # rails console(もしくは、rails c)でirbの代わりにpryを使われる
-  gem 'pry-doc'    # methodを表示
-  gem 'pry-byebug' # デバッグを実施(Ruby 2.0以降で動作する)
-  gem 'pry-stack_explorer' # スタックをたどれる
+  # gem 'hirb'
+  # gem 'pry-rails'  # rails console(もしくは、rails c)でirbの代わりにpryを使われる
+  # gem 'pry-doc'    # methodを表示
+  # gem 'pry-byebug' # デバッグを実施(Ruby 2.0以降で動作する)
+  # gem 'pry-stack_explorer' # スタックをたどれる
 end
 
 group :development do
@@ -53,7 +54,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'sqlite3'
 
 end
 
