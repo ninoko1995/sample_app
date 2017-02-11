@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
-  	@test=User.new
+  	@user=User.new
   end
 
   def help
